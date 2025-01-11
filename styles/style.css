@@ -4,7 +4,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body {
+    background-color:#F1F1F3 ;
+}
 /* shared style */
+.secondary-background{
+    background-color: #C6E4D6;
+}
 .text-primary{
     color: #006A50; 
 }  
@@ -21,6 +27,7 @@
     padding: 15px 30px;
     border-radius: 5px;
     border-color: #006A50;
+     
 
 }
 .btn-secondary{
@@ -35,6 +42,34 @@
 }
 
 
+ .description-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(14, 14, 14, 80%);
+}
+.sections-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.section-description{
+     font-size: 16px;
+     
+     color:rgba(29, 28, 28, 0.7)
+}
+
+.background-secondary{
+    color: #006A50;
+}
+.digital-card{
+    background-color: rgb(84, 144, 245,20%)
+
+}
+
+.border {
+    border: 1px solid rgb(134, 130, 130);
+    width: 1000px;
+}
 /* Nav styles */
 
 nav{
@@ -105,3 +140,96 @@ nav li a{
     width: 470px;
     height:400px ;
 }
+ /* main styles */
+main {
+    max-width:auto;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 30px;
+
+}
+/* card section.. */        
+.card-box{
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 24px;
+    
+
+}
+
+.card{
+   max-width: 410px;
+   max-height: 325px; 
+   background-color:rgb(223, 210, 236);
+   border-radius:10px ;
+   gap: 24px;
+   padding: 30px;
+   
+ 
+   
+}
+
+.about{
+    max-width: 1280px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: justify;
+
+}
+
+
+
+
+/* footer section */
+.footer-container{
+
+    width: 1280px;
+text-align: center;
+display:inline;
+background-color: #C6E4D6;
+border-radius: 20px;
+justify-content:space-between ;
+margin: auto;
+padding-left: 100px;
+padding-top: 80px;
+
+
+}
+
+.footer {
+    
+    width: 1280px;
+    display: inline;
+    text-align: center;
+    padding: 530px 530px;
+    border-style: none;
+    gap:25px;
+
+
+    
+}
+.footer-content input[type="email"]{
+width: 100%;
+height:64px ;
+border-radius:5px 0 ;
+background-color: white;
+color: rgb(119, 111, 111);
+}
+
+.footer-content input[type="submit"]{
+    height: 64px;
+    background-color: #006A50;
+    border-radius:0 5px;
+
+
+}
+
+
+
