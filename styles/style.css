@@ -1,0 +1,107 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared style */
+.text-primary{
+    color: #006A50; 
+}  
+
+.dark-2{
+    color:#0E0E0E;
+}
+
+.btn-primary {
+    background-color: transparent;
+    font-size: 18px;
+    font-weight:bold;
+    color:#006A50;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-color: #006A50;
+
+}
+.btn-secondary{
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 5px;
+    box-shadow: 1px;
+    border: none;
+}
+
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 24px 160px;
+ 
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+
+nav ul{
+
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none ;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 18;
+}
+
+
+/* banner style */
+
+.banner{
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-between ;
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 80px;
+
+}
+
+.banner-content{
+    
+    max-width: 622px;
+     
+}
+.banner-sub-title{
+    color:#0E0E0E;
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 56px;
+
+}
+
+.banner-profile-pic{
+
+    width: 470px;
+    height:400px ;
+}
