@@ -220,7 +220,24 @@ main section{
     border: none;
 }
 
+/* Dr Yunus section */
+.yunus-main{
+    width: 1320px;
+    height: auto;
+    margin: 30px;
+    background-color:white;
+    border-radius: 10px;
+    border-color: #444343; 
+    padding: 10px;
+    
+}
 
+.yunus-image{
+    
+    background-image:  url("/assets/quote-bg.png");
+    
+    background-repeat: no-repeat;
+}
 .about{
     max-width: 1280px;
     border-radius: 10px;
@@ -266,6 +283,7 @@ height:64px ;
 border-radius:5px 0 ;
 background-color: white;
 color: rgb(119, 111, 111);
+padding: 20px 10px 20px 10px;
 }
 
 .footer-content input[type="submit"]{
