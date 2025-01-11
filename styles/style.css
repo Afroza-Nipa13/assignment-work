@@ -52,6 +52,11 @@ body {
     font-weight: bold;
     color: #0E0E0E;
 }
+.content-sub-title{
+
+    font-size: 32px;
+    color:rgb(14, 14, 14, 80%);
+}
 .section-description{
      font-size: 16px;
      
@@ -219,6 +224,21 @@ main section{
     box-shadow: 1px;
     border: none;
 }
+ /* earth-news section styles */
+ .earth-wrapper{
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 1280px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 48px;
+ }
+ .earth-image{
+    border-radius: 20px;
+ }
+
 
 /* Dr Yunus section */
 .yunus-main{
@@ -246,6 +266,72 @@ main section{
     margin: auto;
 
 }
+/* Questions  */
+.box-section{
+
+width: 1320px;
+ background-color: #ffffff;
+ border-radius: 10px;
+
+}
+.questions{
+   
+    width: 100%;
+    border: 1px solid gray
+    
+  }
+
+td {
+    background-color: #ffffff;
+    padding-top:  10px; ;
+    padding-bottom: 10px; 
+    text-align: left;
+    color: black;
+}
+
+.questions .th {
+background-color:#90b9a6
+
+  }
+
+.donate{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.donate-container{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    /* background-color:#C6E4D6; */
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+.h1{
+ background-color: #ffffff;
+ padding: 50px 60px;
+ border: 1px solid rgb(133, 126, 126);
+ border-radius: 20px;
+ }
+
+.h1-exceptional{
+    background-color: #90b9a6;
+    padding: 50px 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+ }
+ .donate-ender{
+    text-align: center;
+ }
+ /* .amount{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ } */
+
+
 
 
 
