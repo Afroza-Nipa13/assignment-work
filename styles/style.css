@@ -258,7 +258,7 @@ main section{
 
 .yunus-image{
     
-    background-image:  url("/assets/quote-bg.png");
+    background-image:  url("assets/quote-bg.png");
     
     background-repeat: no-repeat;
 }
