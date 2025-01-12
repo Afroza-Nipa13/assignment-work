@@ -293,11 +293,14 @@ td {
     color: black;
 }
 
+
 .questions .th {
+
+ padding-top:  10px; 
+ padding-bottom: 10px;
 background-color:#90b9a6
 
   }
-
 .donate{
     width: 1280px;
     display: flex;
